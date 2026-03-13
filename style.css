@@ -1,3 +1,10 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 body {
     background-color: #050505; /* Black background */
     color: white;}
@@ -95,4 +102,16 @@ background-color: blue;
 
 }
 
- 
+.email {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.email a {
+  color: blue;
+  text-decoration: none;
+}
+
+.email a:hover {
+  text-decoration: underline;
+}
