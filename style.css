@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,;
 }
 /* Dark background for a cyber feel */
 body {
     background-color: #0f172a; 
     color: #e2e8f0;
-    line-height: 1.6;
+    line-height: 3;
     scroll-behavior: smooth;
     
 }
@@ -20,7 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 10%;
+    padding: 0.5rem 10%;
     background: #1e293b;
     position: sticky;
     top: 0;
